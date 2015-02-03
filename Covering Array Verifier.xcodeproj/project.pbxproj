@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68EDC0041A80EE0400E00807 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC0031A80EE0400E00807 /* main.cpp */; };
+		68EDC0161A80EE4200E00807 /* Calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC00A1A80EE4200E00807 /* Calculator.cpp */; };
+		68EDC0171A80EE4200E00807 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC00C1A80EE4200E00807 /* Column.cpp */; };
+		68EDC0181A80EE4200E00807 /* CoveringArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC00E1A80EE4200E00807 /* CoveringArray.cpp */; };
+		68EDC0191A80EE4200E00807 /* OccurenceArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC0101A80EE4200E00807 /* OccurenceArray.cpp */; };
+		68EDC01A1A80EE4200E00807 /* OccurenceArrayKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC0121A80EE4200E00807 /* OccurenceArrayKey.cpp */; };
+		68EDC01B1A80EE4200E00807 /* OccurenceLocationArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EDC0141A80EE4200E00807 /* OccurenceLocationArray.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68EDBFFE1A80EE0400E00807 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68EDC0001A80EE0400E00807 /* Covering Array Verifier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Covering Array Verifier"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EDC0031A80EE0400E00807 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68EDC00A1A80EE4200E00807 /* Calculator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Calculator.cpp; sourceTree = "<group>"; };
+		68EDC00B1A80EE4200E00807 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		68EDC00C1A80EE4200E00807 /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Column.cpp; sourceTree = "<group>"; };
+		68EDC00D1A80EE4200E00807 /* Column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Column.h; sourceTree = "<group>"; };
+		68EDC00E1A80EE4200E00807 /* CoveringArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoveringArray.cpp; sourceTree = "<group>"; };
+		68EDC00F1A80EE4200E00807 /* CoveringArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoveringArray.h; sourceTree = "<group>"; };
+		68EDC0101A80EE4200E00807 /* OccurenceArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OccurenceArray.cpp; sourceTree = "<group>"; };
+		68EDC0111A80EE4200E00807 /* OccurenceArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccurenceArray.h; sourceTree = "<group>"; };
+		68EDC0121A80EE4200E00807 /* OccurenceArrayKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OccurenceArrayKey.cpp; sourceTree = "<group>"; };
+		68EDC0131A80EE4200E00807 /* OccurenceArrayKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccurenceArrayKey.h; sourceTree = "<group>"; };
+		68EDC0141A80EE4200E00807 /* OccurenceLocationArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OccurenceLocationArray.cpp; sourceTree = "<group>"; };
+		68EDC0151A80EE4200E00807 /* OccurenceLocationArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccurenceLocationArray.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EDBFFD1A80EE0400E00807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68EDBFF71A80EE0400E00807 = {
+			isa = PBXGroup;
+			children = (
+				68EDC0021A80EE0400E00807 /* Covering Array Verifier */,
+				68EDC0011A80EE0400E00807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68EDC0011A80EE0400E00807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EDC0001A80EE0400E00807 /* Covering Array Verifier */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EDC0021A80EE0400E00807 /* Covering Array Verifier */ = {
+			isa = PBXGroup;
+			children = (
+				68EDC00A1A80EE4200E00807 /* Calculator.cpp */,
+				68EDC00B1A80EE4200E00807 /* Calculator.h */,
+				68EDC00C1A80EE4200E00807 /* Column.cpp */,
+				68EDC00D1A80EE4200E00807 /* Column.h */,
+				68EDC00E1A80EE4200E00807 /* CoveringArray.cpp */,
+				68EDC00F1A80EE4200E00807 /* CoveringArray.h */,
+				68EDC0101A80EE4200E00807 /* OccurenceArray.cpp */,
+				68EDC0111A80EE4200E00807 /* OccurenceArray.h */,
+				68EDC0121A80EE4200E00807 /* OccurenceArrayKey.cpp */,
+				68EDC0131A80EE4200E00807 /* OccurenceArrayKey.h */,
+				68EDC0141A80EE4200E00807 /* OccurenceLocationArray.cpp */,
+				68EDC0151A80EE4200E00807 /* OccurenceLocationArray.h */,
+				68EDC0031A80EE0400E00807 /* main.cpp */,
+			);
+			path = "Covering Array Verifier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EDBFFF1A80EE0400E00807 /* Covering Array Verifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EDC0071A80EE0400E00807 /* Build configuration list for PBXNativeTarget "Covering Array Verifier" */;
+			buildPhases = (
+				68EDBFFC1A80EE0400E00807 /* Sources */,
+				68EDBFFD1A80EE0400E00807 /* Frameworks */,
+				68EDBFFE1A80EE0400E00807 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Covering Array Verifier";
+			productName = "Covering Array Verifier";
+			productReference = 68EDC0001A80EE0400E00807 /* Covering Array Verifier */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EDBFF81A80EE0400E00807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gregory Moon";
+				TargetAttributes = {
+					68EDBFFF1A80EE0400E00807 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 68EDBFFB1A80EE0400E00807 /* Build configuration list for PBXProject "Covering Array Verifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68EDBFF71A80EE0400E00807;
+			productRefGroup = 68EDC0011A80EE0400E00807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EDBFFF1A80EE0400E00807 /* Covering Array Verifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EDBFFC1A80EE0400E00807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EDC0171A80EE4200E00807 /* Column.cpp in Sources */,
+				68EDC0041A80EE0400E00807 /* main.cpp in Sources */,
+				68EDC0191A80EE4200E00807 /* OccurenceArray.cpp in Sources */,
+				68EDC0181A80EE4200E00807 /* CoveringArray.cpp in Sources */,
+				68EDC01B1A80EE4200E00807 /* OccurenceLocationArray.cpp in Sources */,
+				68EDC0161A80EE4200E00807 /* Calculator.cpp in Sources */,
+				68EDC01A1A80EE4200E00807 /* OccurenceArrayKey.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68EDC0051A80EE0400E00807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68EDC0061A80EE0400E00807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68EDC0081A80EE0400E00807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68EDC0091A80EE0400E00807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EDBFFB1A80EE0400E00807 /* Build configuration list for PBXProject "Covering Array Verifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EDC0051A80EE0400E00807 /* Debug */,
+				68EDC0061A80EE0400E00807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EDC0071A80EE0400E00807 /* Build configuration list for PBXNativeTarget "Covering Array Verifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EDC0081A80EE0400E00807 /* Debug */,
+				68EDC0091A80EE0400E00807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EDBFF81A80EE0400E00807 /* Project object */;
+}
