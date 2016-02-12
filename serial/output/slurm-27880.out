@@ -1,0 +1,12 @@
+/home/grmoon/1/inputs/test_1_p.txt: pass
+Modified Values:
+0 1 1 1 1
+1 0 1 0 0
+0 1 * 0 0
+1 0 * 1 1
+0 0 * 0 1
+1 1 * 1 0
+Don't Cares: 
+(2, 2), (3, 2), (4, 2), (5, 2)
+
+0
